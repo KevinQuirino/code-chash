@@ -24,7 +24,7 @@ export default function ProductCard({ producto, onAdd }: ProductCardProps) {
           {producto.nombre}
         </h3>
         <p className="mt-1 text-sm font-semibold text-blue-600 dark:text-blue-400">
-          ${producto.precio.toFixed(2)}
+          ${producto.precios.venta_normal.toFixed(2)}
         </p>
       </div>
     </button>
